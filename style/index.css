@@ -1,0 +1,329 @@
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .map-responsive iframe{
+
+    left:0;
+  
+    top:0;
+  
+    height:70%;
+  
+    width:100%;
+  
+    position:absolute;
+  
+    margin-bottom: 20%;
+  }
+}
+
+.menu-icon {
+  width:20px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+}
+
+.map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:56.25%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+
+  top:0;
+
+  height:70%;
+
+  width:100%;
+
+  position:absolute;
+
+  margin-bottom: 20%;
+
+}
+
+
+.container {
+  display: flex;
+}
+
+.carousel-img {
+  width: 60%;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 20px;
+  box-shadow:2px 2px 4px #000000;
+}
+
+.carousel{
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* media query styles */
+@media (max-width: 1199px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .carousel-img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
+  }
+
+  .service-header h1{
+    margin:5%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .page-content{
+    margin-top: 200px;
+  }
+  
+}
+
+.icon {
+  width:50px;
+  margin: 10px;
+}
+
+.service-header{
+  margin: auto;
+  width: 30%;
+  border: 3px solid black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+  background-image: linear-gradient(#E89B00, #FFDF01);
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 10px 10px lightblue;
+
+}
+
+.service-header p{
+  margin:1%
+}
+
+.service-items{
+  margin:auto;
+  text-align: center;
+  width: 75%;
+  padding:20px;
+}
+
+.service-items h3{
+  font-size: larger;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100%;
+  margin-bottom: 200px;
+}
+
+.center {
+  margin: auto;
+  width: 131px;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+
+.content{
+  width: 100%;
+  padding: 50px;
+  margin-top:50px;
+  margin-bottom: 100px;
+}
+
+footer{
+  background-color: teal;
+  padding: 20px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+hr{
+  width: 50%;
+}
+
+.container-2 {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.image-2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../src/painted-nails-2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+ @keyframes slideInLeft {
+  0% {
+    transform: translate(-500%, -50%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.btn-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: slideInLeft;
+  /* padding: 20px 40px; */
+  /* border-radius: 50px; */
+  /* color: #fff; */
+  background-image: linear-gradient(to right, #549D95 0%, #FFDF01 51%, #549D95 100%);
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.navbar-custom {
+  padding-top:20px;
+  background-color: white;
+  height: 150px;
+  font-size:xx-large
+}
+/* Modify brand and text color */
+
+.navbar-custom .header{
+  font-family: 'Mikela';
+  color: goldenrod;
+  font-size: larger;
+  border: #000000 2px solid;
+  padding: 8px;
+}
+
+
+
+@font-face{
+  font-family: Mikela;
+  src:url("../src/Qasther/Qasther.otf");
+
+}
+
+div {
+  font-family: 'Mikela';
+  font-weight: lighter;
+}
+
+p{
+  font-size: smaller;
+}
+
+h1{
+  margin-top:30px; 
+  margin-bottom:30px;
+  font-family:'Mikela'
+}
+
+.page-header{
+  text-align: center; border: 1px #008080 solid; background: #008080; color:white
+}
+
+.page-header h1{
+  margin-top:30px; margin-bottom:30px
+}
+
+.footer-content{
+  /* border: 2px solid yellow; */
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  text-align: center;
+}
+
+.footer-subcontent{
+  width:50%;
+  /* border: 2px solid rgb(255, 0, 187); */
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.footer-subcontent-2{
+  width:50%;
+  /* border: 2px solid rgb(255, 0, 187); */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content h2{
+  color: white;
+  font-size: medium;
+}
