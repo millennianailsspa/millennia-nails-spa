@@ -1,38 +1,3 @@
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .map-responsive iframe{
-
-    left:0;
-  
-    top:0;
-  
-    height:70%;
-  
-    width:100%;
-  
-    position:absolute;
-  
-    margin-bottom: 20%;
-  }
-}
-
-.menu-icon {
-  width:20px;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  display: inline-block;
-}
-
 .map-responsive{
 
   overflow:hidden;
@@ -87,12 +52,6 @@
 
 .page-content-2{
   margin-top: 10px;
-}
-
-
-.icon {
-  width:30px;
-  margin: 10px;
 }
 
 .service-header{
@@ -153,16 +112,6 @@ body {
 .content{
   width: 100%;
   padding: 50px;
-
-
-}
-
-footer{
-  background-color: teal;
-  padding: 10px;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
 }
 
 hr{
@@ -262,14 +211,11 @@ hr{
 }
 
 .navbar-collapse{
-  background-color: lightgray;
-  z-index: 200;
-  width: 100%;
-  color:#008080;
-  padding: 10px;
-  box-shadow: lightblue 2px 2px 4px;
-  border-radius: 4px;
-  margin-left: 10px;
+  margin-left: 20px;
+}
+
+.nav-item{
+  border-right: #000000 1px solid;
 }
 
 
@@ -300,6 +246,15 @@ h1{
 
 .page-header h1{
   margin-top:30px; margin-bottom:30px
+}
+
+/* Footer Styles */
+footer{
+  background-color: teal;
+  padding: 10px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
 
 .footer-content{
@@ -341,6 +296,11 @@ h1{
   font-size: small;
 }
 
+.icon {
+  width:30px;
+  margin: 10px;
+}
+
 .gallery {
   padding: 90px;
 }
@@ -376,6 +336,17 @@ h1{
 
   .page-content{
     margin-bottom: 300px;
+  }
+
+  .navbar-collapse{
+    background-color: lightgray;
+    z-index: 200;
+    width: 60%;
+    color:#008080;
+    padding: 10px;
+    box-shadow: lightblue 2px 2px 4px;
+    border-radius: 4px;
+    margin-left: 10px;
   }
   
 }
