@@ -327,3 +327,7 @@ h1{
   color: white;
   font-size: medium;
 }
+
+.gallery {
+  padding: 90px;
+}

@@ -54,6 +54,8 @@ function navigateToServices(){
   location.href = "services.html";
 }
 
-
+function openPopUp(){
+  alert("img clicked");
+}
 
 
