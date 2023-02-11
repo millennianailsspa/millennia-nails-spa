@@ -101,8 +101,14 @@
 
   .page-content{
     margin-top: 200px;
+    margin-bottom: 270px;
   }
   
+}
+
+.page-content{
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 
 .icon {
