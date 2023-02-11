@@ -75,7 +75,7 @@
 }
 
 .carousel{
-  width: 40%;
+  width: 50%;
   align-items: center;
   justify-content: center;
 }
@@ -106,7 +106,7 @@
 }
 
 .icon {
-  width:50px;
+  width:30px;
   margin: 10px;
 }
 
@@ -168,13 +168,13 @@ body {
 .content{
   width: 100%;
   padding: 50px;
-  margin-top:50px;
-  margin-bottom: 100px;
+
+
 }
 
 footer{
   background-color: teal;
-  padding: 20px;
+  padding: 10px;
   bottom: 0;
   position: absolute;
   width: 100%;
@@ -230,11 +230,12 @@ hr{
   }
 }
 
+
 .btn-2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-52%, -50%);
   font-size: 24px;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
@@ -244,9 +245,15 @@ hr{
   /* padding: 20px 40px; */
   /* border-radius: 50px; */
   /* color: #fff; */
-  background-image: linear-gradient(to right, #549D95 0%, #FFDF01 51%, #549D95 100%);
+  background-image: linear-gradient(to right, #549D95 0%, goldenrod 51%, #549D95 100%);
   text-align: center;
   text-decoration: none;
+}
+
+.btn-3 {
+  position: sticky;
+  font-size: 24px;
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
 }
 
 .btn:hover {
@@ -265,7 +272,7 @@ hr{
   font-family: 'Mikela';
   color: goldenrod;
   font-size: larger;
-  border: #000000 2px solid;
+  border: #000000 8px double;
   padding: 8px;
 }
 
@@ -302,7 +309,7 @@ h1{
 
 .footer-content{
   /* border: 2px solid yellow; */
-  margin: 5px;
+  margin: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -312,26 +319,44 @@ h1{
 
 .footer-subcontent{
   width:50%;
+  margin:8px;
   /* border: 2px solid rgb(255, 0, 187); */
   display: flex;
   flex-direction: column;
-  float: left;
-}
-
-.footer-subcontent-2{
-  width:50%;
-  /* border: 2px solid rgb(255, 0, 187); */
-  display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
+.footer-subcontent-2{
+  margin: 10px;
+  width:50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid rgb(255, 0, 187); */
+}
+
 .footer-content h2{
   color: white;
-  font-size: medium;
+  font-size: large;
+}
+
+.footer-content p{
+  font-size: small;
 }
 
 .gallery {
   padding: 90px;
+}
+
+.about-content{
+  width:50%;
+  margin:8px;
+  margin-top: 30px;
+  /* border: 2px solid rgb(255, 0, 187); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
