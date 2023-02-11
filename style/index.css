@@ -160,7 +160,7 @@ hr{
     transform: translate(-500%, -50%);
   }
   100% {
-    transform: translate(-50%, -50%);
+    transform: translate(-52%, -50%);
   }
 }
 
@@ -194,10 +194,11 @@ hr{
   background-position: right center; /* change the direction of the change here */
 }
 
+/* Nav Styles */
 .navbar-custom {
   padding-top:20px;
   background-color: white;
-  height: 150px;
+  height: 130px;
   font-size:xx-large
 }
 /* Modify brand and text color */
@@ -207,17 +208,20 @@ hr{
   color: goldenrod;
   font-size: larger;
   border: #000000 8px double;
+  box-shadow: gray 2px 2px 4px;
   padding: 8px;
 }
 
 .navbar-collapse{
   margin-left: 20px;
+
 }
 
 .nav-item{
   border-right: #000000 1px solid;
 }
 
+/* End Nav Styles */
 
 @font-face{
   font-family: Mikela;
@@ -251,7 +255,7 @@ h1{
 /* Footer Styles */
 footer{
   background-color: teal;
-  padding: 10px;
+  padding: 3px;
   bottom: 0;
   position: absolute;
   width: 100%;
@@ -269,7 +273,6 @@ footer{
 
 .footer-subcontent{
   width:50%;
-  margin:8px;
   /* border: 2px solid rgb(255, 0, 187); */
   display: flex;
   flex-direction: column;
@@ -278,8 +281,7 @@ footer{
 }
 
 .footer-subcontent-2{
-  margin: 10px;
-  width:50%;
+  width:70%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -300,6 +302,7 @@ footer{
   width:30px;
   margin: 10px;
 }
+/* End Footer Styles */
 
 .gallery {
   padding: 90px;
