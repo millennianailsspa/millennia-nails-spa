@@ -160,6 +160,8 @@ h1{
   background-image: url(../src/painted-nails-2.jpeg);
   background-size: cover;
   background-position: center;
+  position: absolute;
+  transform: (-50%,-50%);
 }
 
 .overlay {
@@ -231,7 +233,7 @@ h1{
 .navbar-custom {
   padding-top:20px;
   background-color: white;
-  height: 200px;
+  height: 180px;
   font-size:xx-large
 }
 /* Modify brand and text color */
