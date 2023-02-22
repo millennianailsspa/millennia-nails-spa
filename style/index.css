@@ -257,7 +257,7 @@ h1{
 }
 
 .nav-logo{
-  height:auto; width:20%; box-shadow: lightgray 2px 2px 4px;
+  height:auto; width:15%;
 }
 
 /* -----------------------------------------------End Nav Styles----------------------------------------------- */
@@ -352,6 +352,6 @@ footer{
   }
   
   .nav-logo{
-    width: 40%;
+    width: 50%;
   }
 }
