@@ -26,6 +26,11 @@ $(document).ready(function () {
         .then(response => response.json())
         .then(data => console.log(data))
         .then(alert("Message Sent!"))
+        .then(()=>{
+          name.value = "";
+          email.value = "";
+          msg.value="";
+        })
         .catch(error => console.log(error));
 
 
