@@ -11,7 +11,7 @@ $(document).ready(function () {
       let msg = document.getElementById("msg");
       let email = document.getElementById("email");
       // handle submit
-      fetch("https://formsubmit.co/ajax/millennianailsspa@gmail.com", {
+      fetch("https://formsubmit.co/ajax/ee1ef1084732947befb7eb563b74f86d", {
         method: "POST",
         headers: { 
             'Content-Type': 'application/json',

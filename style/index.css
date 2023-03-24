@@ -319,7 +319,7 @@ footer{
 }
 
 /* media query styles */
-@media (max-width: 618) {
+@media (max-width: 600px) {
   .container {
     flex-direction: column;
   }
